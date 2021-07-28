@@ -1,4 +1,4 @@
-# MediaQuery_Project-_1
+# MediaQuery_Project-_1 (https://alexrodriguezsse.github.io/MediaQuery_Project-_1/)
 A begginer project to understand how to apply MediaQuery
 
 - What I used?
