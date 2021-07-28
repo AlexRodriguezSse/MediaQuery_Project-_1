@@ -1,0 +1,73 @@
+//The variables below, were used for to be apply into media querys and make the web responsive and give them and different color 
+$color-1 : #cdb4db ; // Mobile
+$color-2 : #fff1e6 ; // Tablet
+$color-3 : #52b788 ; // Laptop
+$color-4 : #bee1e6 ; // Desktop
+
+$mobile  : 576px;
+$tablet  : 768px;
+$laptop  : 992px; 
+$desktop : 1200px;
+//The variables below, were used for to be apply into media querys and make the web responsive and give them and different color 
+
+
+// used to remove the default styles of the browser
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+    // general basic attributes for the whole body
+    body{
+        font-family: sans-serif;
+        font-size: 35px;
+    }
+}
+
+
+//main atributtes for body 
+.container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #fff;
+}
+
+//attriubutes for center the JS code 
+#size{
+    position: absolute;
+    
+    top: 60%;
+    left: 50%;
+    //the "transform" attribute it's used for compensate the center code default error from above
+    transform: translateX(-50%);
+    font-size: 35px;
+    color: red;
+}
+
+//media query responsive design
+@media (max-width : $desktop) {
+    .container {
+        background-color: $color-4;
+    }
+}
+
+@media (max-width : $laptop) {
+    .container {
+        background-color: $color-3;
+    }
+}
+
+@media (max-width : $tablet) {
+    .container{
+        background-color: $color-2;        
+    }
+}
+
+@media (max-width: $mobile) {
+    .container {
+    background-color: $color-1;
+    }   
+}
+
