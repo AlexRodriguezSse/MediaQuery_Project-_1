@@ -1,5 +1,6 @@
 # MediaQuery_Project-_1 (https://alexrodriguezsse.github.io/MediaQuery_Project-_1/)
 A begginer project to understand how to apply MediaQuery
+    Source (https://www.youtube.com/watch?v=aook54SsfhY&t=3077s)
 
 - What I used?
     - VS CODE
